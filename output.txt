@@ -1,3 +1,17 @@
 
+*************I am going to show steps in Linux based PC***********************
 
-It is for main branch and task is defined and being done. 
+These are the steps that I would go through to toubleshoot the issue:
+
+1. I go for my CLI(Command Line Terminal) to check whether I have SSH client installed for my PC (for linux OpenSSH client Command Line application)
+2. IF not, I will install through sudo apt install <name>
+3. There are basically 2  authentication method to establish connection with remote server through SSH
+ a) through direct password
+ b) key- based authentication
+
+*Note 
+
+Since I am accessing to my server, I can directly connect through the command  ----- ssh username@host_ip_address-------
+ 
+If I need to connect to remote server, I have to generate keys in ssh server then I exchange keys with remote server or Easy way - I can type password with certain port and host address that I am accessing.
+
